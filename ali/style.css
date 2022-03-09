@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+
+.course-road-container{
+    background: #2E1E49;
+}
+
+
+.cr-first, .cr-second{
+    display: none;
+}
+
+.cr-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.cr-mobile-title{
+    padding-left: 10vw;
+    padding-top: 13.5vw;
+}
+
+.cr-mobile-title h2{
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8vw;
+    line-height: 113%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;   
+    color: #30FFCD;
+}
+
+.cr-mobile-selection{
+    display: flex;
+    align-self: center;
+}
+.cr-mobile-selection select{
+    border: 1px solid #30FFCD;
+    background-color: #2E1E49;
+    color: #30FFCD;
+    padding: 0.5vw 1.5vw 0.5vw 0.5vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+
+}
