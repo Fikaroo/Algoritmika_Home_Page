@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.vacancy{
+    background-color: #382459;
+    display: flex;
+    flex-direction: column;
+     color: white;
+}
+.vacancy-content-box{
+    width:50vw;
+    font-family: montserrat;    
+}
+.vacancy-content-box h3{
+    color:#30FFCD;
+    font-size: 10vw;
+    margin-bottom: 6vw;
+}
+.vacancy-content-box p{
+    font-size: 3vw;
+    font-style: normal;   
+    margin-bottom: 0.8vw;
+}
+.vacancy-content-box span{
+    font-size: 2vw;
+}
