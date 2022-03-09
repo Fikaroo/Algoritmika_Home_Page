@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 }
 
@@ -12,19 +11,28 @@
      color: white;
 }
 .vacancy-content-box{
-    width:50vw;
-    font-family: montserrat;    
+    width:50vw;   
 }
 .vacancy-content-box h3{
     color:#30FFCD;
     font-size: 10vw;
     margin-bottom: 6vw;
+    margin-top: 16vw;
+   
 }
 .vacancy-content-box p{
     font-size: 3vw;
-    font-style: normal;   
-    margin-bottom: 0.8vw;
+     margin-bottom: 1.8vw;
+    
 }
 .vacancy-content-box span{
-    font-size: 2vw;
+    font-size: 2vw; 
+}
+.course-header{
+    color: #382459;
+    font-size: 6vw;
+    margin-left: 10vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
 }
