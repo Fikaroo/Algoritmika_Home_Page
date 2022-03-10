@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto+Slab:wght@400;500;700&display=swap');
 
 * {
     margin: 0;
@@ -8,48 +9,271 @@
 
 @media (min-width: 320px) and (max-width: 1280px) {
 
-.course-road-container{
-    background: #2E1E49;
+    .course-road-container {
+        background: #2E1E49;
+    }
+
+
+    .cr-first,
+    .cr-second {
+        display: none;
+    }
+
+    .cr-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cr-mobile-title {
+        padding-left: 10vw;
+        padding-top: 13.5vw;
+        margin-bottom: 8vw;
+    }
+
+    .cr-mobile-title h2 {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 8vw;
+        line-height: 113%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #30FFCD;
+    }
+
+    .cr-mobile-selection {
+        padding-left: 10vw;
+        margin-bottom: 17vw;
+    }
+
+    .cr-mobile-selection select {
+        border: 1px solid #30FFCD;
+        background-color: #2E1E49;
+        color: #30FFCD;
+        padding: 0.5vw 1.5vw 0.5vw 0.5vw;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        width: 80vw;
+        height: 10vw;
+        font-size: 4vw;
+    }
+
+    .cr-mobile-content {
+        width: 92.5vw;
+        padding: 0 5vw 7.5vw 16.25vw;
+
+    }
+
+    .cr-mobile-content ul {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+        color: #FFFFFF;
+        list-style-image: url('../image/Star10.svg');
+    }
+
+    .cr-mobile-content ul::marker{
+        font-size: 1.5vw;
+    }
+
+    .cr-mobile-content ul li {
+        margin-bottom: 5vw;
+    }
+    
+    .cr-mobile-button{  
+        margin: 0 53.75vw 25vw 16.25vw;
+    }
+
+    .cr-mobile-button a{
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .cr-mobile-button button{
+        border: 1px solid #33DFC0;
+        border-radius: 15vw;
+        background-color: #2E1E49;
+        color: #30FFC0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+        height: 12.5vw;
+        width: 42.2vw;
+    }
+
+    .condition-main{
+        background-color: #E5E5E5;;
+    }
+
+    .condition-main-title{
+        padding: 25vw 5vw 5.375vw 10vw;
+        margin-bottom: 5.375vw;
+    }
+
+    .condition-main-title h2{
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7.8vw;
+        line-height: 113%; 
+        letter-spacing: 0.03em;
+        text-transform: uppercase;       
+        color: #382459;
+    }
+
+    .condition-main-content{
+        width: 88vw;
+        padding: 0 1.25vw 26.25vw 10vw ;
+    }
+
+    .condition-main-content p{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;        
+        color: #382459;
+    }
+
+    .container-img{
+        display: none;
+    }
+
 }
 
 
-.cr-first, .cr-second{
-    display: none;
-}
 
-.cr-mobile{
-    display: flex;
-    flex-direction: column;
-}
+@media (min-width: 1280px) {
+    
+    .cr-mobile{
+        display: none;
+    }
 
-.cr-mobile-title{
-    padding-left: 10vw;
-    padding-top: 13.5vw;
-}
+    .course-road-container {
+        background: #2E1E49;
+        display: flex;
+    }
 
-.cr-mobile-title h2{
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 8vw;
-    line-height: 113%;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;   
-    color: #30FFCD;
-}
+    .cr-first-title, .cr-second-title{
+        padding-bottom: 6.3425vw;
+        padding-top: 6.85vw;
+    }
 
-.cr-mobile-selection{
-    display: flex;
-    align-self: center;
-}
-.cr-mobile-selection select{
-    border: 1px solid #30FFCD;
-    background-color: #2E1E49;
-    color: #30FFCD;
-    padding: 0.5vw 1.5vw 0.5vw 0.5vw;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
+    .cr-first{
+        margin-right: 6.6vw;
+        padding-left:10vw ;
+        width: 44vw;
 
+    }
+
+    .cr-first-title h2, .cr-second-title h2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.33vw;
+        line-height: 120%;    
+        letter-spacing: 0.03em;
+        text-transform: uppercase;      
+        color: #30FFCD;
+        
+    }
+
+    .cr-first-content{
+        width: 36.33vw;
+    }
+
+    .cr-first-content ul li{
+        list-style: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.33vw;
+        line-height: 150%;        
+        color: #FFFFFF;
+        margin-bottom: 2vw;
+    }
+
+    .cr-second-content{
+        width: 28.6vw;
+    }
+
+    .cr-second-content ul li{
+        list-style: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.33vw;
+        line-height: 150%;        
+        color: #FFFFFF;
+        margin-bottom: 2vw;
+    }
+
+    .cr-first-button button, .cr-second-button button{
+        border: 2px solid #33DFC0;
+        box-sizing: border-box;
+        border-radius: 4vw;
+        background-color:#2E1E49;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.33vw;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: 0.02em;        
+        color: #30FFCD;
+        
+        width: 16vw;
+        height: 4vw;
+
+        margin-top: 6vw;
+        margin-bottom:8.88vw ;
+    }
+
+    .condition{
+        background-color: #E5E5E5;
+    }
+
+    .condition-main-title{
+        padding-top: 9.5vw;
+        padding-left: 10vw;
+        margin-bottom: 4.165vw;
+    }
+
+    .condition-main-title h2{
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size:4vw;
+        line-height:106%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #382459;
+    }
+
+    .condition-main-content p{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.33vw;
+        line-height: 150%;       
+        color: #382459;
+        width: 32vw;
+        padding-left: 10vw;
+        margin-right: 15vw;
+    }
+
+    .container-img img{
+        position: absolute;
+        left: 54.13333vw;
+        top: 51.9516666vw;
+        width: 38.66vw;
+        height: 54.13vw;
+        
+    }
 
 }
