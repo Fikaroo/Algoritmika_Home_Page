@@ -24,6 +24,7 @@
     .nav{
         display: flex;
         justify-content: space-between;
+        margin-bottom: 153px;
     }
     .nav-alqo-img img{
         width: 43vw;
@@ -32,21 +33,33 @@
     .nav-menyu-img img{
         width: 7.5vw;
     }
-    .header-student p{
+    .header-student{
         font-family: Oswald; 
         font-weight: 700;
         font-style: normal;
         font-size: 8.6vw;
         color: rgba(48, 255, 205, 1);
         width: 82vw;
+        margin-bottom: 20px;
     }
-    .header-about p{
+    .header-about{
         color: white;
         font-size: 3.7vw;
         width: 83.7vw;
-        font-weight: 400;
         font-family: Montserrat;
-        color: #FFFFFF;
+        font-style: normal;
+        font-weight: 400;   
+        letter-spacing: 0em;
+        margin-bottom: 22px;
+    }
+    .header-kurs-start{
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+
     }
 }
 
