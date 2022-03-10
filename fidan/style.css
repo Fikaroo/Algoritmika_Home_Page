@@ -10,6 +10,9 @@
     flex-direction: column;
      color: white;
 }
+.vacancy-content{
+    margin-left: 10vw;
+}
 .vacancy-content-box{
     width:50vw;   
 }
@@ -27,12 +30,31 @@
 }
 .vacancy-content-box span{
     font-size: 2vw; 
+    margin-bottom: 31vw;
+    opacity: 0.62;
+}
+.course{
+    color: #382459;
+    margin-left: 10vw;
 }
 .course-header{
-    color: #382459;
     font-size: 6vw;
-    margin-left: 10vw;
-    margin-right: 5vw;
-    display: flex;
-    flex-direction: row;
+     margin-left: 10vw;
+     margin-top: 24vw;
+     margin-bottom: 16vw;
+     display: flex;
+     justify-content: center;
+}
+.course-header h3{
+    margin-left: -11vw;
+}
+.course-content h5{
+    font-size: 5.6vw;
+    margin-bottom: 4vw;
+    width: 55vw;
+}
+.course-content p{
+    font-size: 3.4vw;
+    margin-bottom: 9vw;
+    width: 70vw;
 }
