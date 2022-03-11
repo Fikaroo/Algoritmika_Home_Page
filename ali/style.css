@@ -234,8 +234,14 @@
         margin-bottom:8.88vw ;
     }
 
+    
+
     .condition{
         background-color: #E5E5E5;
+    }
+    
+    .condition-container {
+        padding-bottom: 10vw;
     }
 
     .condition-main-title{
