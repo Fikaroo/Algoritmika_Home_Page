@@ -5,32 +5,36 @@
   margin: 0;
   padding: 0;
 }
-@media screen and (min-width: 320px) and (max-width:1280px){
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+  .benefit-header-desktop-bottom {
+    display: none;
+  }
   .wrapper {
     display: flex;
     justify-content: center;
   }
   .header {
-    background: linear-gradient(357.36deg, #382459 30%, rgba(43, 17, 83, 0.651) 38.94%, rgba(64, 31, 117, 0.747) 110.68%), url("../image/image\ 2.svg");
-
+    background: linear-gradient(
+        357.36deg,
+        #382459 35%,
+        rgba(42, 15, 82, 0.863) 38.94%,
+        rgba(64, 31, 117, 0.589) 110.68%
+      ),
+      url("../image/image\ 2.svg");
     background-repeat: no-repeat;
     background-size: contain;
     width: 100vw;
-    /* height: 556px; */
-    /* background-color: #382459; */
-    
+    margin-bottom: 68px;
   }
   .header-container {
     padding-right: 10vw;
     padding-top: 5vw;
     padding-left: 9.9vw;
-    
   }
   .nav {
     display: flex;
     justify-content: space-between;
-    /* margin-bottom: 50vw; */
-    margin-bottom: 140px;
+    margin-bottom: 49vw;
   }
   .nav-alqo-img img {
     width: 43vw;
@@ -74,11 +78,56 @@
     align-items: center;
     padding-bottom: 12vw;
   }
-  .header-adnsu-img img{
-      width: 26vw;
-      margin-right: 47px;
+  .header-adnsu-img img {
+    width: 26vw;
+    margin-right: 47px;
   }
-  .header-ministry-img img{
-      width: 20vw;
+  .header-ministry-img img {
+    width: 20vw;
+  }
+  .main {
+    padding-left: 9.9vw;
+  }
+  .benefit-header-title p {
+    color: rgba(56, 36, 89, 1);
+    font-family: Oswald;
+    font-size: 6.5vw;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-right: 9.9vw;
+    margin-bottom: 14.6vw;
+  }
+  .rocket-img img {
+    width: 16.2vw;
+    margin-bottom: 8.2vw;
+  }
+  .benefit-content{
+    color: rgba(56, 36, 89, 1);
+    font-family: Montserrat;
+  }
+  .benefit-content-junior-content{
+    margin-top: 2.4vw;
+    margin-bottom: 14.5vw;
+    font-size: 4vw;
+    font-family: Montserrat;
+    
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5vw;
+    letter-spacing: 0em;
+    width: 80vw;
+  }
+  .benefit-content-uni-content{
+    font-family: Montserrat;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 5vw;
+    letter-spacing: 0em;
+    width: 73vw;
+  }
+  .education-img img{
+    width: 18.7vw;
   }
 }
