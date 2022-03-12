@@ -1,66 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700;600;500;400;300;200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600;500;400;300;200&display=swap');
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700;600;500;400;300;200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700;600;500;400;300;200&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-@media screen and (min-width:320px){
-    .wrapper{
-        display: flex;
-        justify-content: center;
-    }
-   .header{
-    background-image: url("../image/Group\ 7838.svg");
+@media screen and (min-width: 320px) and (max-width:1280px){
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    background: linear-gradient(357.36deg, #382459 30%, rgba(43, 17, 83, 0.651) 38.94%, rgba(64, 31, 117, 0.747) 110.68%), url("../image/image\ 2.svg");
+
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     width: 100vw;
-    } 
-    .header-container{
-        padding-right: 10vw;
-        padding-top: 10vw;
-        padding-left: 9.9vw;
-    }
-    .nav{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 153px;
-    }
-    .nav-alqo-img img{
-        width: 43vw;
-    }
+    /* height: 556px; */
+    /* background-color: #382459; */
     
-    .nav-menyu-img img{
-        width: 7.5vw;
-    }
-    .header-student{
-        font-family: Oswald; 
-        font-weight: 700;
-        font-style: normal;
-        font-size: 8.6vw;
-        color: rgba(48, 255, 205, 1);
-        width: 82vw;
-        margin-bottom: 20px;
-    }
-    .header-about{
-        color: white;
-        font-size: 3.7vw;
-        width: 83.7vw;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 400;   
-        letter-spacing: 0em;
-        margin-bottom: 22px;
-    }
-    .header-kurs-start{
-        color: rgba(255, 255, 255, 1);
-        font-family: Montserrat;
-        font-size: 4vw;
-        font-style: normal;
-        font-weight: 600;
-        letter-spacing: 0.05em;
+  }
+  .header-container {
+    padding-right: 10vw;
+    padding-top: 5vw;
+    padding-left: 9.9vw;
+    
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 50vw; */
+    margin-bottom: 140px;
+  }
+  .nav-alqo-img img {
+    width: 43vw;
+    height: 8vw;
+  }
 
-    }
+  .nav-menyu-img img {
+    width: 7.5vw;
+    height: 6vw;
+  }
+  .header-student {
+    font-family: Oswald;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 8.6vw;
+    color: rgba(48, 255, 205, 1);
+    width: 82vw;
+    margin-bottom: 20px;
+  }
+  .header-about {
+    color: white;
+    font-size: 3.7vw;
+    width: 83.7vw;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    margin-bottom: 22px;
+  }
+  .header-kurs-time {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    margin-bottom: 9vw;
+  }
+  .header-footer-img {
+    display: flex;
+    align-items: center;
+    padding-bottom: 12vw;
+  }
+  .header-adnsu-img img{
+      width: 26vw;
+      margin-right: 47px;
+  }
+  .header-ministry-img img{
+      width: 20vw;
+  }
 }
-
-
