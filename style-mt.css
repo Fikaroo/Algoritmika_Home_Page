@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 320px) and (max-width: 1280px) {
+
+    /* h1 {} */
+
+    h2 {
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7.8vw;
+        line-height: 113%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        font-family: Montserrat;
+    }
+
+    p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+
+        color: #FFFFFF;
+    }
+
+    /*          Tamerlan section start          */
+    .benefit-header-desktop-botton {
+        display: none;
+    }
+
+    .nav-ministry-desktop-img {
+        display: none;
+    }
+
+    .nav-adnsu-desktop-img {
+        display: none;
+    }
+
+    .nav-content {
+        display: none;
+    }
+
+    .header {
+        background: linear-gradient(357.36deg,
+                #382459 34%,
+                rgba(42, 15, 82, 0.863) 38.94%,
+                rgba(64, 31, 117, 0.438) 110.68%),
+            url("../image/image\ 2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100vw;
+        margin-bottom: 68px;
+    }
+
+    .header-container {
+        padding-right: 10vw;
+        padding-top: 5vw;
+        padding-left: 10vw;
+    }
+
+    .nav-img {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 49vw;
+    }
+
+    .nav-alqo-img img {
+        width: 43vw;
+        height: 8vw;
+    }
+
+    .nav-menyu-img img {
+        width: 7.5vw;
+        height: 6vw;
+    }
+
+    .header-student {
+        font-family: Oswald;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 8.6vw;
+        color: rgba(48, 255, 205, 1);
+        width: 82vw;
+        margin-bottom: 20px;
+    }
+
+    .header-about {
+        color: white;
+        font-size: 3.7vw;
+        width: 83.7vw;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0em;
+        margin-bottom: 22px;
+    }
+
+    .header-kurs-time {
+        color: rgba(255, 255, 255, 1);
+        font-family: Montserrat;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        margin-bottom: 9vw;
+    }
+
+    .header-footer-img {
+        display: flex;
+        align-items: center;
+        padding-bottom: 12vw;
+    }
+
+    .header-adnsu-img img {
+        width: 26vw;
+        margin-right: 47px;
+    }
+
+    .header-ministry-img img {
+        width: 20vw;
+    }
+
+    .benefit {
+        padding-left: 10vw;
+        margin-bottom: 27.5vw;
+    }
+
+    .benefit-header-title p {
+        color: rgba(56, 36, 89, 1);
+        font-family: Oswald;
+        font-size: 6.5vw;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-right: 9.9vw;
+        margin-bottom: 14.6vw;
+    }
+
+    .rocket-img img {
+        width: 16.2vw;
+        margin-bottom: 8.2vw;
+    }
+
+    .benefit-content {
+        color: rgba(56, 36, 89, 1);
+        font-family: Montserrat;
+    }
+
+    .benefit-content-junior-header h3 {
+        width: 53vw;
+        font-size: 5.6vw
+    }
+
+    .benefit-content-junior-content {
+        margin-top: 2.4vw;
+        margin-bottom: 14.5vw;
+        font-size: 4vw;
+        font-family: Montserrat;
+
+        font-style: normal;
+        font-weight: 500;
+        line-height: 5vw;
+        letter-spacing: 0em;
+        width: 80vw;
+    }
+
+    .benefit-content-uni-header h3 {
+        width: 67vw;
+        font-size: 5.6vw;
+        margin-bottom: 4.2vw
+    }
+
+    .benefit-content-uni-content {
+        font-family: Montserrat;
+        font-size: 4vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 5vw;
+        letter-spacing: 0em;
+        width: 73vw;
+        margin-bottom: 17.5vw;
+    }
+
+    .header-kurs-time p {
+        border-bottom: 2px dashed #FFE920;
+        width: 50vw;
+    }
+
+    .education-img img {
+        width: 18.7vw;
+    }
+
+    .benefit-header-mobil-botton {
+        width: 60.3vw;
+        height: 12.5vw;
+    }
+
+    .benefit-header-mobil-botton button {
+        background: rgba(255, 29, 192, 1);
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 3vw 8vw;
+        border: none;
+        border-radius: 40px;
+        color: white;
+        font-family: Montserrat;
+        font-size: 4.6vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 5.6vw;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /*                Tamerlan section end            */
+
+    /*                Fidan section start             */
+
+    .vacancy {
+        background-color: #382459;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .vacancy-content {
+        margin-left: 10vw;
+    }
+
+    .vacancy-content-box {
+        width: 50vw;
+    }
+
+    .vacancy-content-box h3 {
+        color: #30FFCD;
+        font-size: 10vw;
+        margin-bottom: 6vw;
+        margin-top: 16vw;
+
+    }
+
+    .vacancy-content-box p {
+        font-size: 3vw;
+        margin-bottom: 1.8vw;
+
+    }
+
+    .vacancy-content-box span {
+        font-family: Montserrat;
+        font-size: 2vw;
+        margin-bottom: 31vw;
+        opacity: 0.62;
+    }
+
+    .vacancy-content img {
+        position: relative;
+        width: 25vw;
+        left: 40vw;
+        top: 5vw;
+    }
+
+    .course {
+        color: #382459;
+        margin-left: 10vw;
+        margin-top: 24vw;
+    }
+
+    .course-header {
+        font-size: 6vw;
+        margin-bottom: 16vw;
+    }
+
+    .cbox-2 {
+        padding-right: 10vw;
+    }
+
+    .cbox-3{
+        padding-right: 10vw;
+    }
+
+    .course-content h5 {
+        font-family: Montserrat;
+        font-size: 5.6vw;
+        margin-bottom: 4vw;
+    }
+
+    .course-content p {
+        font-size: 3.3vw;
+        margin-bottom: 9vw;
+        color: #382459;
+    }
+
+   
+
+    /*                Fidan section end              */
+
+    /*                  Ali section start                */
+    .course-road-container {
+        background: #2E1E49;
+    }
+
+    .cr-first,
+    .cr-second {
+        display: none;
+    }
+
+    .cr-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cr-mobile-title {
+        padding-left: 10vw;
+        padding-top: 13.5vw;
+        margin-bottom: 8vw;
+    }
+
+    .cr-mobile-title h2 {
+        font-size: 7.8vw;
+        line-height: 113%;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #30FFCD;
+    }
+
+    .cr-mobile-selection {
+        padding-left: 10vw;
+        margin-bottom: 17vw;
+    }
+
+    .cr-mobile-selection select {
+        border: 1px solid #30FFCD;
+        background-color: #2E1E49;
+        color: #30FFCD;
+        padding: 0.5vw 1.5vw 0.5vw 0.5vw;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        width: 80vw;
+        height: 10vw;
+        font-size: 4vw;
+    }
+
+    .cr-mobile-content {
+        width: 92.5vw;
+        padding: 0 5vw 7.5vw 16.25vw;
+
+    }
+
+    .cr-mobile-content ul {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+        color: #FFFFFF;
+        list-style-image: url('../image/Star10.svg');
+    }
+
+
+    .cr-mobile-content ul::marker {
+        font-size: 1.5vw;
+    }
+
+    .cr-mobile-content ul li {
+        margin-bottom: 5vw;
+    }
+
+    .cr-mobile-button {
+        margin: 0 53.75vw 25vw 16.25vw;
+    }
+
+    .cr-mobile-button a {
+        list-style: none;
+        cursor: pointer;
+    }
+
+    .cr-mobile-button button {
+        border: 1px solid #33DFC0;
+        border-radius: 15vw;
+        background-color: #2E1E49;
+        color: #30FFC0;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+        height: 12.5vw;
+        width: 42.2vw;
+    }
+
+    .condition-main {
+        background-color: #E5E5E5;
+        ;
+    }
+
+    .condition-main-title {
+        padding: 25vw 5vw 5.375vw 10vw;
+        margin-bottom: 5.375vw;
+    }
+
+    .condition-main-title h2 {
+        color: #382459;
+    }
+
+    .condition-main-content {
+        width: 88vw;
+        padding: 0 1.25vw 26.25vw 10vw;
+    }
+
+    .condition-main-content p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+        color: #382459;
+    }
+
+    .container-img {
+        display: none;
+    }
+
+    /*              Ali section end              */
+
+    /*              Fuad section start          */
+
+    .apply-container {
+        padding-left: 10vw;
+        background-color: #382459;
+    }
+
+    .apply-img img {
+        position: relative;
+        width: 80vw;
+        left: 10vw;
+        bottom: 20vw;
+    }
+
+    .apply-main {
+        position: relative;
+        width: 75vw;
+        bottom: 40vw;
+    }
+
+    .apply-main-content h2 {
+        margin-bottom: 6.2vw;
+        color: #30FFCD;
+    }
+
+    .apply-main-content p {
+        margin-bottom: 12.5vw;
+    }
+
+    .apply-main-content button {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 4.5vw;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 4vw 9vw;
+        background: #FF1DC0;
+        border-radius: 12.5vw;
+    }
+
+    .footer {
+        margin-bottom: 16vw;
+    }
+
+    .footer-container {
+        padding-left: 10vw;
+        padding-top: 22.5vw;
+        ;
+    }
+
+    .logo-social {
+        display: flex;
+        margin-bottom: 10vw;
+    }
+
+    .footer-logo img {
+        margin-right: 7vw;
+        width: 37.5vw;
+    }
+
+    .social img {
+        width: 6vw;
+    }
+
+    .contact-comment {
+        margin-bottom: 18.7vw;
+    }
+
+    .contact {
+        margin-bottom: 4.4vw;
+    }
+
+    .contact p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.5vw;
+        line-height: 145%;
+
+        color: #382459;
+    }
+
+    .comment p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 145%;
+
+        color: #382459;
+    }
+
+    .sponsor-first {
+        margin-bottom: 6vw;
+        padding-left: 2vw;
+    }
+
+    .sponsor-first img {
+        width: 31vw;
+    }
+
+    .sponsor-second img {
+        width: 35vw;
+    }
+}
+
