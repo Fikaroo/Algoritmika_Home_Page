@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media (min-width: 320px) and (max-width: 1280px) {
 
 .vacancy{
     background-color: #382459;
@@ -59,4 +60,13 @@
     font-size: 3.4vw;
     margin-bottom: 9vw;
     width: 70vw;
+}
+}
+@media (min-width: 1280px) {
+    
+
+
+
+
+    
 }
