@@ -357,22 +357,23 @@
     /*              Ali section end              */
 
     /*              Fuad section start          */
+
     .apply-container {
         padding-left: 10vw;
         background-color: #382459;
     }
 
-    .apply-img {
+    .apply-img img{
         position: relative;
         width: 80vw;
         left: 10vw;
-        bottom: 15vw;
+        bottom: 20vw;
     }
 
     .apply-main {
         position: relative;
         width: 75vw;
-        bottom: 30vw;
+        bottom: 40vw;
     }
 
     .apply-main-content h2 {
