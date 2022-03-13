@@ -61,12 +61,95 @@
     margin-bottom: 9vw;
     width: 70vw;
 }
+.vacancy-content img{
+    margin-left: 45vw;
+    width: 25vw;
+}
 }
 @media (min-width: 1280px) {
+
     
-
-
-
-
+.vacancy{
+    background-color: #382459;
+    display: flex;
+    flex-wrap: wrap;
+     color: white;
+     
+}
+.vacancy-content{
+    margin-left: 14vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.vacancy-content-box{
+    width:22vw;  
+    margin-right: 13vw; 
+}
+.vacancy-content-box h3{
+    color:#30FFCD;
+    font-size: 2.8vw;
+    margin-bottom: 1.6vw;
+    margin-top: 6.9vw;
+    font-family: oswald;
+   
+}
+.vacancy-content-box p{
+    font-size: 1.5vw;
+     margin-bottom: 1.7vw;
     
 }
+.vacancy-content-box span{
+    font-size: 1,2vw; 
+    margin-bottom: 3.2vw;
+    opacity: 0.62;
+}
+.course{
+    color: #382459;
+    margin-left: 14vw;
+}
+.course-content{
+    display: flex;
+    flex-direction: row;
+}
+.course-content-box{
+    margin-right: 10vw;
+}
+
+}
+.course-header{
+    font-size: 3.5vw;
+     margin-left: 8.5vw;
+     margin-top: 8vw;
+     margin-bottom: 8vw;
+     display: flex;
+     justify-content: center;
+   
+    
+}
+.course-header h3{
+   margin-left: -55vw ;
+   margin-bottom: 7.8vw;
+   font-family: oswald;
+   font-size: 4vw;
+}
+.course-content h5{
+    font-size: 1.8vw;
+    margin-bottom: 1.6vw;
+    margin-top: -8vw;
+    width: 13vw;
+    font-family: montserrat;
+}
+.course-content p{
+    font-size: 1.5vw;
+    font-family: montserrat;
+    margin-bottom: 11vw;
+    width: 20vw;
+}
+.vacancy-content img{
+    margin-left: 53vw;
+    width: 8vw;
+}
+
+
+
+    
