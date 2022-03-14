@@ -6,9 +6,16 @@
     box-sizing: border-box;
 }
 
+
 @media (min-width: 320px) and (max-width: 1280px) {
 
-    /* h1 {} */
+    h1 {
+        font-size: 8.7vw;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        color: #30FFCD;
+    }
 
     h2 {
         font-family: Oswald;
@@ -65,7 +72,6 @@
     .header-container {
         padding-right: 10vw;
         padding-top: 5vw;
-        padding-left: 10vw;
     }
 
     .nav-img {
@@ -84,14 +90,14 @@
         height: 6vw;
     }
 
-    .header-student {
-        font-family: Oswald;
-        font-weight: 700;
-        font-style: normal;
-        font-size: 8.6vw;
-        color: rgba(48, 255, 205, 1);
-        width: 82vw;
-        margin-bottom: 20px;
+
+    .header-content {
+        padding-left: 10vw;
+    }
+
+    .header-student h1 {
+        letter-spacing: 0.03em;
+        margin-bottom: 6.2vw;
     }
 
     .header-about {
@@ -135,25 +141,17 @@
         margin-bottom: 27.5vw;
     }
 
-    .benefit-header-title p {
-        color: rgba(56, 36, 89, 1);
-        font-family: Oswald;
-        font-size: 6.5vw;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: 0.03em;
-        padding-right: 9.9vw;
-        margin-bottom: 14.6vw;
-    }
-
     .rocket-img img {
         width: 16.2vw;
         margin-bottom: 8.2vw;
     }
 
     .benefit-content {
-        color: rgba(56, 36, 89, 1);
-        font-family: Montserrat;
+        color: #382459;
+    }
+
+    .benefit-content p {
+        color: #382459;
     }
 
     .benefit-content-junior-header h3 {
@@ -187,7 +185,7 @@
         font-weight: 500;
         line-height: 5vw;
         letter-spacing: 0em;
-        width: 73vw;
+        width: 80vw;
         margin-bottom: 17.5vw;
     }
 
@@ -240,9 +238,23 @@
         margin-left: 10vw;
     }
 
-    .vacancy-content-box {
-        width: 50vw;
+    .box-1 {
+        width: 60vw;
     }
+
+    .box-2 {
+        width: 72vw;
+    }
+
+    .box-3 {
+        width: 74vw;
+        margin-right: 6.2vw;
+    }
+
+    .box-4 {
+        width: 70vw;
+    }
+
 
     .vacancy-content-box h3 {
         color: #30FFCD;

@@ -122,11 +122,11 @@
     }
 
     .header-content {
-        margin-left: 9.4vw;
+        margin-left: 8.5vw;
     }
 
-    .header-student {
-        padding-right: 4vw;
+    .header-student h1 {
+        width: 40vw;
         letter-spacing: 0.03em;
         margin-bottom: 2.2vw;
     }
@@ -139,7 +139,7 @@
         line-height: 2.3vw;
         letter-spacing: 0em;
         color: white;
-        width: 52.3vw;
+        width: 44vw;
         margin-bottom: 4vw;
     }
 
@@ -166,15 +166,11 @@
         margin-top: 9.1vw;
     }
 
-    .benefit-header-title p {
-        font-family: Oswald;
-        font-size: 3.9vw;
-        font-style: normal;
-        font-weight: 700;
+    .benefit-header-title h2 {
         line-height: 4.16vw;
         letter-spacing: 0.03em;
         color: rgba(56, 36, 89, 1);
-        padding-left: 10vw;
+        padding-left: 8.5vw;
     }
 
     .benefit-header-desktop-botton button {
@@ -194,9 +190,13 @@
     .benefit-content {
         display: flex;
         margin-top: 9.6vw;
-        padding-left: 9.6vw;
+        padding-left: 8.5vw;
         color: rgba(56, 36, 89, 1);
         font-family: Montserrat;
+    }
+
+    .benefit-content p {
+        color: #382459;
     }
 
     .benefit-content-junior-header h3 {
@@ -247,6 +247,14 @@
         margin-right: 8.2vw;
     }
 
+    .rocket-img img {
+        width: 6vw;
+    }
+
+    .education-img img {
+        width: 6vw;
+    }
+
     /*          Tamerlan section end        */
 
     /*                Fidan section start             */
@@ -256,23 +264,18 @@
         display: flex;
         flex-wrap: wrap;
         color: white;
-
+        
     }
 
     .vacancy-content {
-        margin-left: 14vw;
         display: flex;
         flex-wrap: wrap;
-    }
-
-    .vacancy-content-box {
-        width: 40vw;
-        margin-right: 10vw;
+        margin-left: 8.5vw;
     }
 
     .box-1 {
+        margin-right: 14vw;
         width: 28vw;
-        margin-right: 18vw;
     }
 
     .box-2 {
@@ -281,6 +284,7 @@
 
     .box-3 {
         width: 36vw;
+        margin-right: 6.2vw;
     }
 
     .box-4 {
@@ -319,43 +323,58 @@
     .course {
         margin-top: 8vw;
         color: #382459;
-        margin-left: 14vw;
+        margin-left: 8.5vw;
+        margin-bottom: 11vw;
     }
 
     .course-content {
         display: flex;
         flex-direction: row;
+        width: 90vw;
     }
 
     .course-content-box {
-        margin-right: 10vw;
+        margin-right: 5vw;
+    }
+
+    .cbox-1 {
+        width: 26vw;
+    }
+
+    .cbox-1 h5 {
+        width: 10vw;
+    }
+
+    .cbox-2 {
+        width: 26vw;
+    }
+
+    .cbox-2 h5 {
+        width: 25vw;
+    }
+
+    .cbox-3 {
+        width: 25vw;
+    }
+
+    .cbox-3 h5 {
+        width: 10vw;
     }
 
     .course-header {
         margin-bottom: 8vw;
     }
 
-    .course-header h3 {
-        margin-bottom: 7.8vw;
-        font-family: oswald;
-        font-size: 4vw;
-    }
-
     .course-content h5 {
         font-size: 1.8vw;
         margin-bottom: 1.6vw;
-        margin-top: -8vw;
-        width: 13vw;
         font-family: montserrat;
     }
 
     .course-content p {
         font-size: 1.5vw;
         font-family: montserrat;
-        margin-bottom: 11vw;
-        width: 20vw;
         color: #382459;
-
     }
 
     /*                Fidan section end             */
@@ -379,7 +398,7 @@
 
     .cr-first {
         margin-right: 6.6vw;
-        padding-left: 10vw;
+        padding-left: 8.5vw;
         width: 44vw;
 
     }
@@ -456,7 +475,7 @@
 
     .condition-container {
         height: 30vw;
-        padding-left: 10vw;
+        padding-left: 8.5vw;
         /* padding-bottom: 10vw; */
     }
 
@@ -487,7 +506,7 @@
         margin-right: 15vw;
     }
 
-    .container-img {
+    .container-img img{
         position: relative;
         bottom: 32vw;
         left: 50vw;
@@ -516,7 +535,7 @@
     }
 
     .apply-main-content h2 {
-        padding-right: 10vw;
+        padding-right: 8vw;
         margin-bottom: 2vw;
         color: #30FFCD;
     }
