@@ -103,6 +103,7 @@
     }
 
     .header-kurs-time {
+        width: 50vw;
         color: rgba(255, 255, 255, 1);
         font-family: Montserrat;
         font-size: 4vw;
@@ -189,7 +190,6 @@
 
     .header-kurs-time p {
         border-bottom: 2px dashed #FFE920;
-        width: 50vw;
     }
 
     .education-img img {
