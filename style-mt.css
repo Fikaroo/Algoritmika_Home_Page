@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 @media (min-width: 320px) and (max-width: 1280px) {
 
     h1 {
@@ -85,7 +76,7 @@
         height: 8vw;
     }
 
-    .nav-menyu-img img {
+    .nav-menu-img img {
         width: 7.5vw;
         height: 6vw;
     }
@@ -152,6 +143,13 @@
 
     .benefit-content p {
         color: #382459;
+    }
+
+    .benefit-header-title h2 {
+        line-height: 4.16vw;
+        letter-spacing: 0.03em;
+        color: rgba(56, 36, 89, 1);
+        margin-bottom: 16.5vw;
     }
 
     .benefit-content-junior-header h3 {
