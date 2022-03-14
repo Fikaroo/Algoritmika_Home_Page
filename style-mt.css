@@ -50,9 +50,9 @@
     }
 
     .header {
-        background: linear-gradient(357.36deg,
-                #382459 34%,
-                rgba(42, 15, 82, 0.863) 38.94%,
+        background: linear-gradient(360deg,
+                #382459 36%,
+                rgba(42, 15, 82, 0.863) 50%,
                 rgba(64, 31, 117, 0.438) 110.68%),
             url("../image/image_2.svg");
         background-repeat: no-repeat;
